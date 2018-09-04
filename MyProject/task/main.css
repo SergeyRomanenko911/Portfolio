@@ -1,0 +1,109 @@
+
+@import url('https://fonts.googleapis.com/css?family=Comfortaa|Neucha');
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('./img/main_bc.jpg');
+    background-size: cover;
+    text-align: center;
+}
+
+.field{
+    border: 2px solid #000;
+    border-radius: 10px;
+    background: rgba(0,0,0,.4);
+    text-align:center;
+    width: 350px;
+    box-shadow: 0 0 10px rgba(255,255,255,0.5);
+    margin: 2% auto;
+    padding: 10px;
+    padding-top: 0;
+
+}
+
+.field h2{
+    margin: 10px;
+    font-family: 'Comfortaa';
+    font-size: 30px;
+    color: #eee;
+}
+
+.box{
+    color: #ddd;
+    margin: 10px;
+    padding: 10px;
+    background: #9C3A3B;
+    border: 2px dashed #511E1E;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255,255,255,0.5);
+    overflow: hidden;
+}
+
+.text{
+    padding: 3px;
+    font-size: 23px;
+}
+
+.box textarea{
+    resize: none;
+    padding: 2px;
+}
+
+.btn{
+    width: 130px;
+    height: 36px;
+    border-radius: 18px;
+    margin: 4px;
+    color: #fff;
+    box-shadow: 5px 5px 7px rgba(0,0,0,0.5);
+    border: none;
+    background: #fe5621;
+    font-family: 'Neucha';
+    letter-spacing: 0.06em;
+    font-weight: 500;
+    font-size: 15px;
+
+}
+
+.btn:hover{
+    box-shadow: inset 2px 2px 7px rgba(0,0,0,0.5);
+    padding-top: 1px;
+    padding-left: 1px;
+}
+
+.btn.save{
+    background: #679358;
+}
+
+.btn.edit{
+    background:#267BB7;
+}
+
+.btn.delete{
+    background: #495156;
+}
+
+.btn:hover{
+    cursor: pointer;
+}
+
+.tarea{
+    width: 100%;
+    border: 2px solid #3c3d08;
+    border-radius: 4px;
+    background: #eee;
+
+
+}
+
+@media(max-width: 800px){
+    
+    
+}
